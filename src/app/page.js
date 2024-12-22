@@ -330,6 +330,9 @@
       <p style={{ fontSize: '0.8rem', color: '#888', marginTop: '20px' }}>
         Note: I will not be paying to keep this thing up.
       </p>
+      <p style={{ fontSize: '0.8rem', color: '#888' }}>
+        Other note: This took me about an hour to make. If whoever got their hands on Safemoon swap now cared about you in the slightest capacity, they've had done it.
+      </p>
       </div>
     );
   }
