@@ -2,6 +2,7 @@
 
   import React, { useState, useEffect, useCallback } from 'react';
   import { ethers, MaxUint256 } from 'ethers';
+  import { Analytics } from '@vercel/analytics/next';
 
   const minimalSFMAbi = [
     {
@@ -328,11 +329,15 @@
         (Awful) source code available <a href="https://github.com/Nova1111111/sfm-migration-recovery-tool" style={{ color: '#555', textDecoration: 'underline' }}> here</a>.
       </p>
       <p style={{ fontSize: '0.8rem', color: '#888', marginTop: '20px' }}>
+        This page collects minimal data track usage metrics for this tool. It does not collect any personal data.
+      </p>
+      <p style={{ fontSize: '0.8rem', color: '#888', marginTop: '20px' }}>
         Note: I will not be paying to keep this thing up.
       </p>
       <p style={{ fontSize: '0.8rem', color: '#888' }}>
         Other note: This took me about an hour to make. If whoever got their hands on Safemoon swap right now cared about you in the slightest capacity, they've had done it.
       </p>
+      <Analytics />
       </div>
     );
   }
