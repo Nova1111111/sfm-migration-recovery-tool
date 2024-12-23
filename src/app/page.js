@@ -329,7 +329,7 @@
         (Awful) source code available <a href="https://github.com/Nova1111111/sfm-migration-recovery-tool" style={{ color: '#555', textDecoration: 'underline' }}> here</a>.
       </p>
       <p style={{ fontSize: '0.8rem', color: '#888', marginTop: '20px' }}>
-        This page collects minimal data track usage metrics for this tool. It does not collect any personal data.
+        This page collects minimal data to track usage metrics for this tool. It does not collect any personal data.
       </p>
       <p style={{ fontSize: '0.8rem', color: '#888', marginTop: '20px' }}>
         Note: I will not be paying to keep this thing up.
